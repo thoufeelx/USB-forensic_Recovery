@@ -34,17 +34,17 @@ A sleek, Linux-only USB file recovery and forensic analysis tool using **PYTHON*
 
 ### 🐍 Step-by-Step Setup with `myenv`
 
-#### 1. Clone the repository
+### 1. Clone the repository
 
 git clone https://github.com/thoufeelx/USB-forensic_Recovery.git
 
 
-#### 2. Create a virtual environment
+### 2. Create a virtual environment
 
 python3 -m venv myenv
 source myenv/bin/activate
 
-#### 3. Install required Python packages
+### 3. Install required Python packages
 
 pip install PyQt5 pyudev
 
@@ -52,11 +52,11 @@ or
 
 pip install -r requirements.txt
 
-#### 4. Run the tool with root privileges
+### 4. Run the tool with root privileges
 
 sudo python usb_forensic_tool.py
 
-##### 🧪 How It Works
+### 🧪 How It Works
 Scans the raw USB device (block-by-block)
 
 Detects and extracts files using known signatures:
@@ -77,7 +77,7 @@ Hash (MD5 short)
 
 Allows selective recovery to a folder of your choice
 
-#### 📁 Output Directory
+### 📁 Output Directory
 
 By default, recovered files go to:
 
@@ -88,23 +88,23 @@ Edit
 You can change the location via "Set Output Directory" in the GUI.
 
 
-#### GUI
+### GUI
 
 ![](assets/UI.png)
 
-#### Loading
+### Loading
 
 ![](assets/loading.png)
 
-#### Found
+### Found
 
 ![](assets/found.png)
 
-#### Output Directory
+### bOutput Directory
 
 ![](assets/output.png)
 
-#### Recovered
+### Recovered
 
 ![](assets/successfull.png)
 
